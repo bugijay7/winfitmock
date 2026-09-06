@@ -143,22 +143,22 @@ function App() {
       </section>
 
       {/* CREDIBILITY METRICS & TRANSFORMATION SHOWCASE */}
-      <section id="credibility" className="py-20 bg-[#FF5804] text-[#E4EEF0] border-b border-[#075056]/30">
+      <section id="credibility" className="py-20 bg-[#075056] text-[#E4EEF0] border-b border-[#075056]/30">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 space-y-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 divide-y md:divide-y-0 md:divide-x divide-[#075056]">
             
             <div className="pt-6 md:pt-0 md:pr-8 space-y-2" data-aos="fade-up">
-              <span className="font-serif text-4xl sm:text-5xl font-normal text-[#075056] ">9-Week</span>
+              <span className="font-serif text-4xl sm:text-5xl font-normal text-[#FF5804] ">9-Week</span>
               <h3 className="text-xs uppercase tracking-[0.15em] font-semibold text-[#E4EEF0]/80">Guided Reset System</h3>
             </div>
 
             <div className="pt-6 md:pt-0 md:px-8 space-y-2" data-aos="fade-up" data-aos-delay="100">
-              <span className="font-serif text-4xl sm:text-5xl font-normal text-[#075056] ">115-Page</span>
+              <span className="font-serif text-4xl sm:text-5xl font-normal text-[#FF5804] ">115-Page</span>
               <h3 className="text-xs uppercase tracking-[0.15em] font-semibold text-[#E4EEF0]/80">Practical Implementation Workbook</h3>
             </div>
 
             <div className="pt-6 md:pt-0 md:pl-8 space-y-2" data-aos="fade-up" data-aos-delay="200">
-              <span className="font-serif text-4xl sm:text-5xl font-normal text-[#075056] ">1:1 Support</span>
+              <span className="font-serif text-4xl sm:text-5xl font-normal text-[#FF5804] ">1:1 Support</span>
               <h3 className="text-xs uppercase tracking-[0.15em] font-semibold text-[#E4EEF0]/80">Personal Consultations & Coaching</h3>
             </div>
 
