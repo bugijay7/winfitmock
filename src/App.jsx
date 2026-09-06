@@ -105,21 +105,21 @@ function App() {
                 Nutrition · Fitness · Sustainable Change
               </span>
 
-              <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal leading-[1.12] text-[#16232B] tracking-tight">
+              <h1 className="font-serif text-2xl sm:text-5xl lg:text-6xl font-normal leading-[1.12] text-[#16232B] tracking-tight">
                 Fix What’s <span className="italic font-light text-[#FF5804]">Actually Driving</span> Your Weight Gain
               </h1>
 
-              <p className="text-base sm:text-lg text-[#16232B]/80 font-light leading-relaxed max-w-xl">
+              <p className="text-sm sm:text-lg text-[#16232B]/80 font-light leading-relaxed max-w-xl">
                 Stop starving yourself. Rebalance your blood sugar, lower insulin, and rebuild your metabolism with sustainable, high-protein nutrition.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-3 pt-2">
-                <button className="w-full sm:w-auto px-8 py-4 bg-[#FF5804] hover:bg-[#075056] text-[#E4EEF0] text-xs uppercase tracking-[0.15em] font-bold transition-all text-center rounded-xs shadow-sm">
+              <div className="flex flex-col sm:flex-row gap-2 pt-1">
+                <button className="w-full sm:w-auto px-8 py-2 bg-[#FF5804] hover:bg-[#075056] text-[#E4EEF0] text-xs uppercase tracking-[0.15em] font-bold transition-all text-center rounded-xs shadow-sm">
                   Start Your Journey
                 </button>
                 <a 
                   href="#consultation" 
-                  className="w-full sm:w-auto px-8 py-4 border border-[#075056] hover:bg-[#075056] hover:text-[#E4EEF0] text-[#075056] text-xs uppercase tracking-[0.15em] font-bold text-center transition-all rounded-xs"
+                  className="w-full sm:w-auto px-8 py-2 border border-[#075056] hover:bg-[#075056] hover:text-[#E4EEF0] text-[#075056] text-xs uppercase tracking-[0.15em] font-bold text-center transition-all rounded-xs"
                 >
                   Book 1:1 Consultation
                 </a>
@@ -128,11 +128,11 @@ function App() {
 
             {/* Featured Image Card */}
             <div className="w-full lg:col-span-5" data-aos="fade-up" data-aos-delay="150">
-              <div className="relative aspect-[4/3] sm:aspect-[16/9] lg:aspect-[4/5] bg-[#075056]/10 border border-[#075056]/20 overflow-hidden shadow-sm rounded-xs">
+              <div className="relative aspect-[4/3] sm:aspect-[16/9] lg:aspect-[4/5] sm:bg-[#075056]/10 sm:border sm:border-[#075056]">
                 <img 
                   src={heroImage} 
                   alt="Winnie Fitness Overview" 
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-contain sm:object-cover object-center"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
               </div>
