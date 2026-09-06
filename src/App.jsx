@@ -45,7 +45,7 @@ function App() {
   <img 
     src={logo} 
     alt="Winnie Fitness Logo" 
-    className="h-10 w-10 object-contain rounded-full border-2 bg-black border-[#FF5804] p-1" 
+    className="h-15 w-15 object-contain rounded-full border-2  border-[#075056] p-1" 
   />
 </a>
 
